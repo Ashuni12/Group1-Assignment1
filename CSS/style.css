@@ -57,54 +57,60 @@ body{
 .nav{
     width: 120px;
     height: 80px;
-    float: left;    
+    float: left;  
     margin-left: 350px;
 }
 
 ul{
     float: left;
     display: flex;
-    justify-content: center;
+    margin-left: 400px;
     align-items: center;
 }
 
 ul li{
     list-style: none;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-top: 20px;
     font-size: 16px;
 }
 
 ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #af0303;
     font-family: Arial;
     font-weight: bold;
     transition: 0.4s ease-in-out;
     display: inline-block;
 }
 
-ul li a:hover{
+/* ul li a:hover{
     color: rgba(0, 255, 149, 0.829);
-}
+} */
 
-ul li button{
-    width: 1px;
-    height: 50px;
+button{
+    margin-left: 48px;
+    margin-top: 20px;
+    border-radius: 13px;
 }
 
 .loginbtn{
-    width: 65px;
-    height: 40px;
-    font-size: 16px;
-    font-family: Arial;
-    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    background-color: #ffffff;
     cursor: pointer;
-    transition: .5s;
+}
+
+.loginbtn a{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .loginbtn:hover{
-    background-color: darkcyan;
+    transition: .4s ease;
+    background-color: rgba(0, 255, 149, 0.829);
 }
 
 /* .loginbtn{
@@ -119,3 +125,62 @@ ul li button{
     cursor: pointer;
     transition: .5s;
 } */
+
+.display{
+    background: linear-gradient(to right, rgb(0,33,0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/Sunset.jpg);
+    width: 100%;
+    height: 540px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;;
+}
+
+.display .slogan{
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.display .slogan .words{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+.display .slogan .login-btn{
+    width: 186px;
+    height: 65px;
+    margin-left: 10px;
+}
+
+.login-btn{
+    background-color: rgb(214, 107, 107);
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.login-btn a{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-btn:hover{
+    transition: .4s ease;
+    background-color: rgba(236, 35, 35, 0.829);
+}
+
+.home_blog{
+    width: 1180px;
+    height: 830px;
+    top: 785px;
+    left: 50px;
+}
