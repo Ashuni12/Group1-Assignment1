@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.5) 50%), url(original_16.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav-background{
+    background: rgb(49, 21, 100);
+    height: 70px;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color:deepskyblue;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.nav{
+    width: 120px;
+    height: 80px;
+    float: left;    
+    margin-left: 350px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    display: inline-block;
+}
+
+ul li a:hover{
+    color: rgba(0, 255, 149, 0.829);
+}
+
+.loginbtn{
+    list-style: none;
+    margin-left: 54px;
+    margin-top: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .5s;
+}
