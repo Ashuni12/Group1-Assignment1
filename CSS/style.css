@@ -12,7 +12,7 @@ body{
 
 .nav-background{
     background: rgba(35, 37, 54, 1);
-    height: 70px;
+    height: 80px;
 }
 
 .navbar{
@@ -72,7 +72,7 @@ ul li{
     list-style: none;
     margin-left: 100px;
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 ul li a{
@@ -88,11 +88,34 @@ ul li a:hover{
     color: rgba(0, 255, 149, 0.829);
 }
 
+ul li button{
+    width: 1px;
+    height: 50px;
+}
+
 .loginbtn{
-    list-style: none;
-    margin-left: 54px;
-    margin-top: 20px;
-    font-size: 14px;
+    width: 65px;
+    height: 40px;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
     cursor: pointer;
     transition: .5s;
 }
+
+.loginbtn:hover{
+    background-color: darkcyan;
+}
+
+/* .loginbtn{
+    width: 1px;
+    height: 10px;
+    top: 14px;
+    left: 1078px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .5s;
+} */
